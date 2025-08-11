@@ -1,0 +1,72 @@
+[
+  {
+    "id": "u1",
+    "name": "Alex Rao",
+    "email": "alex@example.com",
+    "avatarUrl": "assets/images/avatar1.png",
+    "bio": "Love planning movie nights."
+  },
+  {
+    "id": "u2",
+    "name": "Maya Iyer",
+    "email": "maya@example.com",
+    "avatarUrl": "assets/images/avatar2.png",
+    "bio": "Weekend adventure enthusiast"
+  },
+  {
+    "id": "u3",
+    "name": "James Wilson",
+    "email": "james@example.com",
+    "avatarUrl": "assets/images/avatar3.png",
+    "bio": "Food and film buff"
+  },
+  {
+    "id": "u4",
+    "name": "Sarah Chen",
+    "email": "sarah@example.com",
+    "avatarUrl": "assets/images/avatar4.png",
+    "bio": "Hiking and photography lover"
+  },
+  {
+    "id": "u5",
+    "name": "Miguel Rodriguez",
+    "email": "miguel@example.com",
+    "avatarUrl": "assets/images/avatar5.png",
+    "bio": "Concert and festival goer"
+  },
+  {
+    "id": "u6",
+    "name": "Leila Ahmed",
+    "email": "leila@example.com",
+    "avatarUrl": "assets/images/avatar6.png",
+    "bio": "Bookworm and coffee shop explorer"
+  },
+  {
+    "id": "u7",
+    "name": "Ryan Park",
+    "email": "ryan@example.com",
+    "avatarUrl": "assets/images/avatar7.png",
+    "bio": "Sports fan and fitness enthusiast"
+  },
+  {
+    "id": "u8",
+    "name": "Emma Johnson",
+    "email": "emma@example.com",
+    "avatarUrl": "assets/images/avatar8.png",
+    "bio": "Art gallery and museum lover"
+  },
+  {
+    "id": "u9",
+    "name": "Zach Taylor",
+    "email": "zach@example.com",
+    "avatarUrl": "assets/images/avatar9.png",
+    "bio": "Foodie and restaurant reviewer"
+  },
+  {
+    "id": "u10",
+    "name": "Olivia Martinez",
+    "email": "olivia@example.com",
+    "avatarUrl": "assets/images/avatar10.png",
+    "bio": "Music and vinyl collector"
+  }
+]

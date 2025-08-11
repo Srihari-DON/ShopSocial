@@ -1,0 +1,42 @@
+[
+  {
+    "id": "g1",
+    "name": "Movie Nights",
+    "description": "Group for planning movie nights and discussions",
+    "privacy": "public",
+    "memberIds": ["u1", "u2", "u3", "u6", "u8"],
+    "ownerId": "u1"
+  },
+  {
+    "id": "g2",
+    "name": "Weekend Trips",
+    "description": "Planning weekend getaways and adventures",
+    "privacy": "private",
+    "memberIds": ["u1", "u2", "u4", "u7"],
+    "ownerId": "u2"
+  },
+  {
+    "id": "g3",
+    "name": "Foodie Club",
+    "description": "Exploring new restaurants and food experiences",
+    "privacy": "public",
+    "memberIds": ["u3", "u5", "u9", "u10"],
+    "ownerId": "u9"
+  },
+  {
+    "id": "g4",
+    "name": "Book Club",
+    "description": "Monthly book discussions and author events",
+    "privacy": "invite",
+    "memberIds": ["u2", "u6", "u8", "u10"],
+    "ownerId": "u6"
+  },
+  {
+    "id": "g5",
+    "name": "Fitness Squad",
+    "description": "Workout buddies and fitness challenges",
+    "privacy": "public",
+    "memberIds": ["u4", "u5", "u7", "u1"],
+    "ownerId": "u7"
+  }
+]

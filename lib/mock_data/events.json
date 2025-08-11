@@ -1,0 +1,113 @@
+[
+  {
+    "id": "e1",
+    "groupId": "g1",
+    "title": "Marvel Movie Marathon",
+    "description": "Let's watch the best Marvel movies back to back! We'll vote on which movies to include.",
+    "options": [
+      {
+        "id": "o1",
+        "optionText": "Saturday at Alex's place - 2PM",
+        "startsAt": "2025-08-16T14:00:00.000Z",
+        "votes": ["u1", "u3"]
+      },
+      {
+        "id": "o2",
+        "optionText": "Sunday at Maya's - 3PM",
+        "startsAt": "2025-08-17T15:00:00.000Z",
+        "votes": ["u2", "u8"]
+      }
+    ],
+    "coverImage": "assets/images/marvel_cover.png",
+    "createdBy": "u1",
+    "isCancelled": false
+  },
+  {
+    "id": "e2",
+    "groupId": "g2",
+    "title": "Cascade Mountains Hike",
+    "description": "Weekend trip to Cascade Mountains. Hiking, camping and enjoying nature.",
+    "options": [
+      {
+        "id": "o3",
+        "optionText": "Next weekend - Cascade Mountains",
+        "startsAt": "2025-08-23T08:00:00.000Z",
+        "lat": 47.5423,
+        "lng": -121.8286,
+        "votes": ["u1", "u2", "u4"]
+      },
+      {
+        "id": "o4",
+        "optionText": "Two weeks from now - Olympic National Park",
+        "startsAt": "2025-08-30T08:00:00.000Z",
+        "lat": 47.8021,
+        "lng": -123.6044,
+        "votes": ["u7"]
+      }
+    ],
+    "coverImage": "assets/images/mountains_cover.png",
+    "createdBy": "u2",
+    "isCancelled": false
+  },
+  {
+    "id": "e3",
+    "groupId": "g3",
+    "title": "Downtown Food Tour",
+    "description": "Exploring new restaurants downtown with special tasting menus.",
+    "options": [
+      {
+        "id": "o5",
+        "optionText": "Friday evening - Start at Bistro Central",
+        "startsAt": "2025-08-15T18:00:00.000Z",
+        "votes": ["u3", "u5", "u9"]
+      },
+      {
+        "id": "o6",
+        "optionText": "Saturday evening - Start at Tavern 52",
+        "startsAt": "2025-08-16T18:00:00.000Z",
+        "votes": ["u10"]
+      }
+    ],
+    "coverImage": "assets/images/food_tour_cover.png",
+    "createdBy": "u9",
+    "isCancelled": false
+  },
+  {
+    "id": "e4",
+    "groupId": "g4",
+    "title": "Author Q&A: Michelle Rivera",
+    "description": "Special book club meeting with author Michelle Rivera discussing her new novel.",
+    "options": [
+      {
+        "id": "o7",
+        "optionText": "Virtual meeting - Zoom",
+        "startsAt": "2025-08-20T19:00:00.000Z",
+        "votes": ["u2", "u6", "u8", "u10"]
+      }
+    ],
+    "startsAt": "2025-08-20T19:00:00.000Z",
+    "coverImage": "assets/images/book_club_cover.png",
+    "createdBy": "u6",
+    "isCancelled": false
+  },
+  {
+    "id": "e5",
+    "groupId": "g5",
+    "title": "Charity 5K Run",
+    "description": "Participating in the city's charity 5K run as a group. All proceeds go to local homeless shelters.",
+    "options": [
+      {
+        "id": "o8",
+        "optionText": "City Park - 8AM start time",
+        "startsAt": "2025-08-24T08:00:00.000Z",
+        "lat": 47.6205,
+        "lng": -122.3493,
+        "votes": ["u4", "u5", "u7", "u1"]
+      }
+    ],
+    "startsAt": "2025-08-24T08:00:00.000Z",
+    "coverImage": "assets/images/run_cover.png",
+    "createdBy": "u7",
+    "isCancelled": false
+  }
+]

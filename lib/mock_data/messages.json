@@ -1,0 +1,123 @@
+[
+  {
+    "id": "m1",
+    "chatId": "e1",
+    "senderId": "u1",
+    "content": "Hey everyone! I'm thinking we should watch Iron Man first, then Captain America. Thoughts?",
+    "createdAt": "2025-08-10T15:30:00.000Z"
+  },
+  {
+    "id": "m2",
+    "chatId": "e1",
+    "senderId": "u2",
+    "content": "I vote for starting with Captain America: The First Avenger, chronological order!",
+    "createdAt": "2025-08-10T15:32:00.000Z"
+  },
+  {
+    "id": "m3",
+    "chatId": "e1",
+    "senderId": "u3",
+    "content": "Iron Man came first though! I say release order is better.",
+    "createdAt": "2025-08-10T15:35:00.000Z"
+  },
+  {
+    "id": "m4",
+    "chatId": "e1",
+    "senderId": "u8",
+    "content": "I can bring popcorn and snacks for everyone!",
+    "createdAt": "2025-08-10T15:40:00.000Z"
+  },
+  {
+    "id": "m5",
+    "chatId": "e1",
+    "senderId": "u1",
+    "content": "Perfect! I'll set up the living room with extra seating.",
+    "createdAt": "2025-08-10T15:42:00.000Z"
+  },
+  {
+    "id": "m6",
+    "chatId": "e2",
+    "senderId": "u2",
+    "content": "Everyone ready for the mountains? Remember to pack warm clothes!",
+    "createdAt": "2025-08-10T16:10:00.000Z"
+  },
+  {
+    "id": "m7",
+    "chatId": "e2",
+    "senderId": "u1",
+    "content": "I'll bring some hiking snacks for everyone.",
+    "attachmentUrl": "assets/images/hiking_snacks.png",
+    "createdAt": "2025-08-10T16:15:00.000Z"
+  },
+  {
+    "id": "m8",
+    "chatId": "e2",
+    "senderId": "u4",
+    "content": "I have an extra tent if anyone needs it.",
+    "createdAt": "2025-08-10T16:20:00.000Z"
+  },
+  {
+    "id": "m9",
+    "chatId": "e2",
+    "senderId": "u7",
+    "content": "I'll drive if anyone needs a ride. My SUV can fit 5 people plus gear.",
+    "createdAt": "2025-08-10T16:25:00.000Z"
+  },
+  {
+    "id": "m10",
+    "chatId": "e3",
+    "senderId": "u9",
+    "content": "I've made reservations at three restaurants for our food tour. Should be amazing!",
+    "createdAt": "2025-08-10T17:00:00.000Z"
+  },
+  {
+    "id": "m11",
+    "chatId": "e3",
+    "senderId": "u5",
+    "content": "Can't wait! Do we need to bring anything?",
+    "createdAt": "2025-08-10T17:05:00.000Z"
+  },
+  {
+    "id": "m12",
+    "chatId": "e3",
+    "senderId": "u9",
+    "content": "Just your appetite! I've arranged for a set menu at each place.",
+    "createdAt": "2025-08-10T17:07:00.000Z"
+  },
+  {
+    "id": "m13",
+    "chatId": "e4",
+    "senderId": "u6",
+    "content": "Exciting news! Michelle Rivera confirmed for our virtual Q&A next week.",
+    "attachmentUrl": "assets/images/author_promo.png",
+    "createdAt": "2025-08-10T18:00:00.000Z"
+  },
+  {
+    "id": "m14",
+    "chatId": "e4",
+    "senderId": "u8",
+    "content": "Amazing! I just finished her book last night. So many questions!",
+    "createdAt": "2025-08-10T18:05:00.000Z"
+  },
+  {
+    "id": "m15",
+    "chatId": "e5",
+    "senderId": "u7",
+    "content": "Registration for the 5K is now open. I'll send the team signup link.",
+    "createdAt": "2025-08-10T19:00:00.000Z"
+  },
+  {
+    "id": "m16",
+    "chatId": "e5",
+    "senderId": "u4",
+    "content": "Anyone want to meet for a practice run this weekend?",
+    "createdAt": "2025-08-10T19:05:00.000Z"
+  },
+  {
+    "id": "m17",
+    "chatId": "e5",
+    "senderId": "u1",
+    "content": "I'm in! Saturday morning?",
+    "createdAt": "2025-08-10T19:07:00.000Z"
+  }
+]

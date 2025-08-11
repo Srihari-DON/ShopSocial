@@ -1,0 +1,58 @@
+name: shop_social
+description: A social shopping app with Riverpod for state management and GoRouter for navigation.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  
+  # State management
+  flutter_riverpod: ^2.4.0
+  hooks_riverpod: ^2.4.0
+  flutter_hooks: ^0.20.3
+  
+  # Navigation
+  go_router: ^12.0.0
+  
+  # Utility packages
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  uuid: ^4.0.0
+  path_provider: ^2.1.1
+  
+  # UI packages
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  lottie: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+  mocktail: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - lib/mock_data/
+    
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
