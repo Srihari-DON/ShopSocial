@@ -5,12 +5,15 @@ class User {
   final String avatarUrl;
   final String bio;
   
+  // Add alias for profileImageUrl
+  String get profileImageUrl => avatarUrl;
+  
   User({
     required this.id,
     required this.name,
     required this.email,
     required this.avatarUrl,
-    required this.bio,
+    this.bio = '',
   });
   
   factory User.fromJson(Map<String, dynamic> json) {

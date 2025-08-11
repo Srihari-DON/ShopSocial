@@ -59,6 +59,36 @@ class AppButton extends StatelessWidget {
     this.disabled = false,
     this.borderRadius = AppSpacing.cardBorderRadius,
   });
+  
+  // Constructor with label parameter for compatibility
+  AppButton.withLabel({
+    super.key,
+    required String label,
+    required VoidCallback? onPressed,
+    IconData? leadingIcon,
+    IconData? trailingIcon,
+    AppButtonVariant variant = AppButtonVariant.primary,
+    bool isLoading = false,
+    bool expandWidth = false,
+    Color? color,
+    Color? textColor,
+    AppButtonSize size = AppButtonSize.medium,
+    bool disabled = false,
+    double borderRadius = AppSpacing.cardBorderRadius,
+  }) : this(
+    text: label,
+    onPressed: onPressed,
+    leadingIcon: leadingIcon,
+    trailingIcon: trailingIcon,
+    variant: variant,
+    isLoading: isLoading,
+    expandWidth: expandWidth,
+    color: color,
+    textColor: textColor,
+    size: size,
+    disabled: disabled,
+    borderRadius: borderRadius,
+  );
 
   @override
   Widget build(BuildContext context) {

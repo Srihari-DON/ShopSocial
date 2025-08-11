@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'app.dart';
+// Import our demo app instead of the original app
+import 'demo/app.dart';
 
 void main() async {
   // Ensure Flutter is initialized
@@ -26,7 +27,7 @@ void main() async {
   // Run the app wrapped in ProviderScope for Riverpod
   runApp(
     const ProviderScope(
-      child: ShopSocialApp(),
+      child: DemoApp(), // Use our demo app
     ),
   );
 }

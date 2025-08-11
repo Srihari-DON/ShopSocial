@@ -1,9 +1,20 @@
+enum EventOptionType {
+  time,
+  location,
+  activity
+}
+
 class EventOption {
   final String id;
   final String optionText;
   final DateTime startsAt;
   final double? lat, lng;
   final List<String> votes; // userIds
+  
+  // Add aliases for property names used in the app
+  String get name => optionText;
+  String? get description => null;
+  EventOptionType get type => EventOptionType.time;
   
   EventOption({
     required this.id,

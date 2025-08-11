@@ -25,6 +25,16 @@ class AppTypography {
         fontWeight: FontWeight.w600,
       );
   
+  static TextStyle get h5 => GoogleFonts.poppins(
+        fontSize: 18,
+        fontWeight: FontWeight.w600,
+      );
+      
+  // Compatibility with material theme names
+  static TextStyle get headline4 => h4;
+  static TextStyle get headline5 => h5;
+  static TextStyle get overline => caption;
+  
   // Body styles
   static TextStyle get body1 => GoogleFonts.poppins(
         fontSize: 16,

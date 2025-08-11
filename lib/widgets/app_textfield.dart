@@ -80,6 +80,9 @@ class AppTextField extends StatefulWidget {
   
   /// Input action (e.g., next, done) for keyboard
   final TextInputAction? textInputAction;
+  
+  /// Validator function for form validation
+  final String? Function(String?)? validator;
 
   const AppTextField({
     super.key,
@@ -98,6 +101,7 @@ class AppTextField extends StatefulWidget {
     this.maxLines = 1,
     this.minLines = 1,
     this.prefixIcon,
+    this.validator,
     this.suffixIcon,
     this.inputFormatters,
     this.autofocus = false,

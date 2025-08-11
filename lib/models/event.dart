@@ -11,6 +11,12 @@ class Event {
   final String createdBy;
   final bool isCancelled;
   
+  // Add aliases for property names used in the app
+  String get name => title;
+  DateTime get startTime => startsAt ?? DateTime.now();
+  DateTime get endTime => startsAt != null ? startsAt!.add(Duration(hours: 2)) : DateTime.now().add(Duration(hours: 2));
+  String? get imageUrl => coverImage;
+  
   Event({
     required this.id,
     required this.groupId,

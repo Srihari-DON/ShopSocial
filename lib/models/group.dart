@@ -5,6 +5,10 @@ class Group {
   final String privacy; // 'public'|'private'|'invite'
   final List<String> memberIds;
   final String? ownerId;
+  final DateTime createdAt = DateTime.now();
+  
+  // Add aliases for property names used in the app
+  String get imageUrl => 'https://picsum.photos/seed/$id/300/300';
   
   Group({
     required this.id,

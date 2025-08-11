@@ -3,6 +3,10 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../constants/colors.dart';
 
+// Define compatibility types for Material 3
+typedef CardThemeData = CardTheme;
+typedef TabBarThemeData = TabBarTheme;
+
 class AppTheme {
   // Light theme
   static ThemeData light() {
@@ -31,10 +35,10 @@ class AppTheme {
         ),
       ),
       scaffoldBackgroundColor: AppColors.background,
-      cardTheme: CardTheme(
+      cardTheme: const CardThemeData(
         elevation: 2,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.all(Radius.circular(12)),
         ),
         color: AppColors.surface,
       ),

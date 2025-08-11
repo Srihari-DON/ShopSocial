@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'constants/strings.dart';
 import 'routes.dart';
 import 'theme/theme.dart';
-import 'viewmodels/auth_vm.dart';
 
+/// Main app component that initializes theme and routing
 class ShopSocialApp extends ConsumerWidget {
   const ShopSocialApp({super.key});
 
@@ -25,4 +26,25 @@ class ShopSocialApp extends ConsumerWidget {
   }
 }
 
-final themeModeProvider = StateProvider<bool>((ref) => false);
+/// Provider for theme mode preference
+final themeModeProvider = StateNotifierProvider<ThemeModeNotifier, bool>((ref) {
+  return ThemeModeNotifier();
+});
+
+/// Manages theme mode state and persists preference
+class ThemeModeNotifier extends StateNotifier<bool> {
+  ThemeModeNotifier() : super(false) {
+    _loadPreference();
+  }
+
+  Future<void> _loadPreference() async {
+    final prefs = await SharedPreferences.getInstance();
+    state = prefs.getBool('darkMode') ?? false;
+  }
+
+  Future<void> toggleTheme() async {
+    final prefs = await SharedPreferences.getInstance();
+    state = !state;
+    await prefs.setBool('darkMode', state);
+  }
+}

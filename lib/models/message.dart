@@ -1,3 +1,5 @@
+import 'message_type.dart';
+
 class Message {
   final String id;
   final String chatId; // eventId or DM id
@@ -5,6 +7,11 @@ class Message {
   final String content;
   final String? attachmentUrl;
   final DateTime createdAt;
+  
+  // Add aliases for property names used in the app
+  MessageType get type => attachmentUrl != null ? MessageType.image : MessageType.text;
+  DateTime get timestamp => createdAt;
+  String? get caption => null;
   
   Message({
     required this.id,
