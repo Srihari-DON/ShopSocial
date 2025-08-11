@@ -20,6 +20,8 @@ A social shopping app with features for groups, events, chats, and expense shari
 
 ## Getting Started
 
+For detailed setup instructions, see [SETUP.md](SETUP.md).
+
 ### Prerequisites
 
 - Flutter SDK 3.7 or higher
@@ -29,7 +31,7 @@ A social shopping app with features for groups, events, chats, and expense shari
 
 1. Clone the repository
 ```
-git clone https://github.com/yourusername/shop_social.git
+git clone https://github.com/Srihari-DON/ShopSocial.git
 ```
 
 2. Navigate to the project directory
